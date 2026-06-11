@@ -1,0 +1,15 @@
+torch
+transformers>=4.46,<4.58
+datasets>=4.0
+accelerate>=0.33
+bitsandbytes>=0.43.3
+peft>=0.10
+scikit-learn
+scipy
+numpy
+pandas
+matplotlib
+tqdm
+tensorboard
+sentencepiece
+

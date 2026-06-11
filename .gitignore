@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# macOS / editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Downloaded data and model weights
+.datasets/
+.models/
+
+# Nested upstream repositories
+third_party/*/.git/
+
+# Experiment artifacts
+outputs/
+logs/
+*.log
+events.out.tfevents.*
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+report/latex/rendered/
+research_proposal/rendered/
+
+# Presentation / scratch artifacts
+method.pptx
+AttnRes-QST.pptx
+inspire/
+.skills/
